@@ -3,8 +3,8 @@ import { useState } from "react";
 import { Modal } from "react-bootstrap";
 import * as Icon from 'react-bootstrap-icons';
 import { useHistory, useLocation } from "react-router";
-import { convertTag, formatNumber, timeSince } from "../../../helper/utilities";
-import RedditService from "../../../services/RedditService";
+import { convertTag, formatNumber, timeSince } from "../../helper/utilities";
+import RedditService from "../../services/RedditService";
 
 
 function PostDetail(props) {

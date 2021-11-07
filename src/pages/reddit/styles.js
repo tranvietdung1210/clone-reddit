@@ -2,7 +2,8 @@ import { makeStyles } from "@material-ui/styles";
 
 export default makeStyles(theme => ({
   groupHeader: {
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    marginTop: "-25px"
   },
   boardHeader: {
     height: "192px",

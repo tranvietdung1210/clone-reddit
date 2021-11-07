@@ -15,7 +15,7 @@ import Header from "../Header";
 // context
 import { useLayoutState } from "../../context/LayoutContext";
 import Reddit from "../../pages/reddit/Reddit";
-import PostDetail from "../../pages/reddit/components/PostDetails";
+import PostDetail from "../../pages/reddit/PostDetails";
 
 function Layout(props) {
   var classes = useStyles();
