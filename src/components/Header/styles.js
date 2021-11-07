@@ -15,6 +15,8 @@ export default makeStyles(theme => ({
   },
   appBar: {
     width: "100vw",
+    background: "white",
+    padding: "0 25px",
     zIndex: theme.zIndex.drawer + 1,
     transition: theme.transitions.create(["margin"], {
       easing: theme.transitions.easing.sharp,
@@ -22,8 +24,8 @@ export default makeStyles(theme => ({
     }),
   },
   toolbar: {
-    paddingLeft: theme.spacing(2),
-    paddingRight: theme.spacing(2),
+    // paddingLeft: theme.spacing(2),
+    // paddingRight: theme.spacing(2),
   },
   hide: {
     display: "none",
