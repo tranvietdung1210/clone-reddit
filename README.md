@@ -1,6 +1,6 @@
 // setting:
 run the following commands:
- - git clone https://github.com/tranvietdung1210/reddit-clone.git;
+ - git clone https://github.com/tranvietdung1210/clone-reddit.git;
  - npm install
  - npm install -g json-server
  - json-server --watch dummyData.json
